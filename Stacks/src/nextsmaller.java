@@ -1,9 +1,12 @@
 import java.util.ArrayList;
+
 import java.util.Arrays;
 import java.util.Stack;
 
 public class nextsmaller {
     public static void main(String[] args) {
+        Stack<Pair<String,Integer>> st = new Stack<>();
+        System.out.println(6%5);
         int[] arr = {1,2};
         int n = arr.length;
         ArrayList<Integer> list = new ArrayList<>();
